@@ -3,18 +3,23 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background: #1a1a1a;
+    background: #000000;
+    color: white;
+    overflow-x: hidden;
 }
 
 header {
-    background: #0d0d1a;
-    color: gray;
+    background: #111111;
+    color: white;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.logo {
-    font-size: 28px;
-    font-weight: bold;
+.logo img {
+    height: 50px;
+    animation: fadeIn 2s ease-in-out;
 }
 
 nav ul {
@@ -25,6 +30,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0 15px;
+    animation: slideIn 1s ease-in-out;
 }
 
 nav ul li a {
@@ -34,9 +40,10 @@ nav ul li a {
 }
 
 .hero-section {
-    background: url('hero-bg-dark.jpg') center/cover no-repeat;
+    background: url('hero-bg-new.jpg') center/cover no-repeat;
     color: white;
     padding: 100px 20px;
+    animation: fadeIn 2s ease-in-out;
 }
 
 .cta-button {
@@ -48,18 +55,39 @@ nav ul li a {
     margin-top: 20px;
     border-radius: 5px;
     font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.cta-button:hover {
+    transform: scale(1.1);
 }
 
 .content-section {
     padding: 50px;
-    background: #121212;
+    background: #111111;
     margin: 20px;
     border-radius: 10px;
+    animation: fadeInUp 1.5s ease-in-out;
 }
 
 footer {
-    background: #1a1a2e;
+    background: #111111;
     color: white;
     padding: 20px;
     margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
 }
