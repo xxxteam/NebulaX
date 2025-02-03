@@ -7,8 +7,8 @@ body {
 }
 
 header {
-    background: #1a1a2e;
-    color: white;
+    background: #0d0d1a;
+    color: gray;
     padding: 20px;
 }
 
@@ -34,7 +34,7 @@ nav ul li a {
 }
 
 .hero-section {
-    background: url('hero-bg.jpg') center/cover no-repeat;
+    background: url('hero-bg-dark.jpg') center/cover no-repeat;
     color: white;
     padding: 100px 20px;
 }
@@ -52,7 +52,7 @@ nav ul li a {
 
 .content-section {
     padding: 50px;
-    background: white;
+    background: #121212;
     margin: 20px;
     border-radius: 10px;
 }
