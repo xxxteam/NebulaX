@@ -39,12 +39,12 @@
         </ul>
     </section>
     
-    <section id="roadmap" class="content-section">
+    <section id="roadmap" class="content-section" style="background: url('roadmap-bg.jpg') center/cover no-repeat;">
         <h2>Project Roadmap</h2>
         <img src="roadmap-chart.png" alt="Roadmap Chart" style="width:100%; max-width:700px;">
     </section>
     
-    <section id="tokenomics" class="content-section">
+    <section id="tokenomics" class="content-section" style="background: url('tokenomics-bg.jpg') center/cover no-repeat;">
         <h2>Tokenomics</h2>
         <p>Total Supply: 150,000,000 NBX</p>
         <ul>
@@ -58,7 +58,7 @@
         <img src="token-distribution-chart.png" alt="Token Distribution Chart" style="width:100%; max-width:600px;">
     </section>
     
-    <section id="vesting" class="content-section">
+    <section id="vesting" class="content-section" style="background: url('vesting-bg.jpg') center/cover no-repeat;">
         <h2>Vesting Schedule</h2>
         <p>Gradual unlocking of tokens over time ensures long-term stability.</p>
         <img src="vesting-schedule-chart.png" alt="Vesting Schedule Chart" style="width:100%; max-width:600px;">
